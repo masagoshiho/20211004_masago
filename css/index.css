@@ -1,0 +1,29 @@
+header　{
+  display: flex;
+}
+
+.header_title {
+  display: flex;
+  list-style: none;
+  float: right;
+}
+
+
+.title-wrap {
+  margin: 0 10px;
+}
+
+.technology-title {
+  color: #fff;
+  text-align: center;
+}
+
+.technology-wrap {
+  color: #fff;
+  text-align: center;
+}
+
+.technology_photo {
+  background: url("../img/mv.png");
+  background-size: cover;
+}
