@@ -1,3 +1,7 @@
+body {
+  margin: 10px 0;
+}
+
 header　{
   display: flex;
 }
@@ -26,4 +30,113 @@ header　{
 .technology_photo {
   background: url("../img/mv.png");
   background-size: cover;
+}
+
+.item-box {
+  background-color: black;
+  padding: 10%;
+}
+
+.item_content {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.item_wrap {
+  color: #fff;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.service {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.service_child1 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.service-wrap {
+  font-size: 25px;
+  margin: 0;
+}
+
+.service_child2 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.service_child3 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.service_child4 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.box {
+  height: 300px;
+}
+
+.child {
+  height: 50%;
+}
+
+.service-btn {
+  border: 2px solid red;
+  background-color: red;
+  color: #fff;
+  padding: 15px 40px;
+  display: inline-block;
+}
+
+.news {
+  background-color: black;
+  padding: 10%;
+  margin: 20px 0;
+  display: flex;
+}
+
+.news-title {
+  color: #fff;
+  font-size: 40px;
+}
+
+.news-btn {
+  border: 2px solid red;
+  background-color: red;
+  color: #fff;
+  padding: 15px 40px;
+  display: inline-block;
+}
+
+.news-wrap1 {
+  font-size: 40px;
+  background-color: #fff;
+  color: black;
+  padding: 15px 40px;
+  display: inline-block;
+}
+
+.news-wrap2 {
+  font-size: 40px;
+  background-color: #fff;
+  color: black;
+  padding: 15px 40px;
+  display: inline-block;
+}
+
+.news-wrap3 {
+  font-size: 40px;
+  background-color: #fff;
+  color: black;
+  padding: 15px 40px;
+  display: inline-block;
 }
