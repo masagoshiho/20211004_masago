@@ -56,7 +56,14 @@ header　{
   margin: 20px 0;
 }
 
-.service_child1 {
+.service_box1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.service-title {
   font-size: 30px;
   font-weight: bolder;
 }
@@ -66,28 +73,6 @@ header　{
   margin: 0;
 }
 
-.service_child2 {
-  font-size: 30px;
-  font-weight: bolder;
-}
-
-.service_child3 {
-  font-size: 30px;
-  font-weight: bolder;
-}
-
-.service_child4 {
-  font-size: 30px;
-  font-weight: bolder;
-}
-
-.box {
-  height: 300px;
-}
-
-.child {
-  height: 50%;
-}
 
 .service-btn {
   border: 2px solid red;
@@ -97,11 +82,17 @@ header　{
   display: inline-block;
 }
 
+.news-box {
+  background-color: black;
+  padding: 10%;
+}
+
 .news {
   background-color: black;
   padding: 10%;
   margin: 20px 0;
   display: flex;
+  justify-content: space-between;
 }
 
 .news-title {
@@ -117,26 +108,86 @@ header　{
   display: inline-block;
 }
 
+.news-wrap_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+}
+
 .news-wrap1 {
-  font-size: 40px;
+  font-size: 20px;
   background-color: #fff;
   color: black;
-  padding: 15px 40px;
-  display: inline-block;
+  padding: 15px 100px;
+  margin: 10px;
 }
 
 .news-wrap2 {
-  font-size: 40px;
+  font-size: 20px;
   background-color: #fff;
   color: black;
+  padding: 15px 100px;
+  margin: 10px;
+}
+
+.news-wrap3 {
+  font-size: 20px;
+  background-color: #fff;
+  color: black;
+  padding: 15px 100px;
+  margin: 10px;
+}
+
+.news-wrap_span {
+  font-weight: bolder;
+}
+
+.blog-title {
+  color: black;
+  font-size: 40px;
+}
+
+.blog_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%%;
+}
+
+.blog-photo {
+  width: 100%;
+}
+
+.blog-title_wrap2 {
+  font-weight: bolder;
+}
+
+.blog-btn {
+  border: 2px solid red;
+  background-color: red;
+  color: #fff;
   padding: 15px 40px;
   display: inline-block;
 }
 
-.news-wrap3 {
+.company {
+  display: flex;
+  margin: 10px 0;
+}
+
+.company-title {
+  background-color: red;
+  padding: 30px 50px;
+  color: #fff;
   font-size: 40px;
-  background-color: #fff;
-  color: black;
-  padding: 15px 40px;
-  display: inline-block;
+  font-weight: bolder;
+}
+
+.company-title_information {
+  background-color: black;
+  padding: 30px 50px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bolder;
 }
