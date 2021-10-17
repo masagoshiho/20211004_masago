@@ -59,12 +59,25 @@ header　{
 .service_box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.service_img img {
+.service_img1 {
   width: 50%;
 }
+
+.service_img2 {
+  width: 50%;
+}
+
+.service_img3 {
+  width: 50%;
+}
+
+.service_img4 {
+  width: 50%;
+}
+
 
 .service_box1 {
   display: flex;
@@ -157,7 +170,7 @@ header　{
   color: black;
   padding: 15px 100px;
   margin: 10px;
-   width: 80%;
+  width: 80%;
 }
 
 .news-wrap3 {
@@ -166,7 +179,7 @@ header　{
   color: black;
   padding: 15px 100px;
   margin: 10px;
-   width: 80%;
+  width: 80%;
 }
 
 .news-wrap_span {
@@ -176,14 +189,37 @@ header　{
 .blog-title {
   color: black;
   font-size: 40px;
+  margin: 20px 0;
+  text-align: center;
 }
 
-.blog_box {
+.blog-title_box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 50%;
+  justify-content: center;
+  width: 100%;
 }
+
+.blog-title_box1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  margin: 0 10px;
+}
+
+.blog-title_box2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  margin: 0 10px;
+}
+
+.blog-title_box3 {
+ display: flex;
+ flex-wrap: wrap;
+ width: 30%;
+ margin: 0 10px;
+} 
 
 .blog-photo {
   width: 100%;
@@ -199,6 +235,7 @@ header　{
   color: #fff;
   padding: 15px 40px;
   display: inline-block;
+  margin: 20px 0;
 }
 
 .company {
