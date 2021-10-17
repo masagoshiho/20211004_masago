@@ -62,7 +62,29 @@ header　{
   justify-content: space-between;
 }
 
+.service_img img {
+  width: 50%;
+}
+
 .service_box1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+}
+
+.service_box2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+}
+
+.service_box3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+}
+
+.service_box4 {
   display: flex;
   flex-wrap: wrap;
   width: 40%;
@@ -200,4 +222,9 @@ header　{
   font-size: 40px;
   font-weight: bolder;
   width: 50%;
+}
+
+.form-box {
+  background-color: lightgrey;
+  padding: 10%;
 }
