@@ -56,10 +56,15 @@ header　{
   margin: 20px 0;
 }
 
-.service_box1 {
+.service_box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.service_box1 {
+  display: flex;
+  flex-wrap: wrap;
   width: 40%;
 }
 
@@ -121,6 +126,7 @@ header　{
   color: black;
   padding: 15px 100px;
   margin: 10px;
+  width: 80%;
 }
 
 .news-wrap2 {
@@ -129,6 +135,7 @@ header　{
   color: black;
   padding: 15px 100px;
   margin: 10px;
+   width: 80%;
 }
 
 .news-wrap3 {
@@ -137,6 +144,7 @@ header　{
   color: black;
   padding: 15px 100px;
   margin: 10px;
+   width: 80%;
 }
 
 .news-wrap_span {
@@ -152,7 +160,7 @@ header　{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 50%%;
+  width: 50%;
 }
 
 .blog-photo {
@@ -182,6 +190,7 @@ header　{
   color: #fff;
   font-size: 40px;
   font-weight: bolder;
+  width: 50%;
 }
 
 .company-title_information {
@@ -190,4 +199,5 @@ header　{
   color: #fff;
   font-size: 40px;
   font-weight: bolder;
+  width: 50%;
 }
