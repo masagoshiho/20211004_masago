@@ -62,20 +62,8 @@ header　{
   justify-content: center;
 }
 
-.service_img1 {
-  width: 50%;
-}
-
-.service_img2 {
-  width: 50%;
-}
-
-.service_img3 {
-  width: 50%;
-}
-
-.service_img4 {
-  width: 50%;
+.service_img {
+  width: 100%;
 }
 
 
@@ -83,33 +71,38 @@ header　{
   display: flex;
   flex-wrap: wrap;
   width: 40%;
+  margin: 20px;
 }
 
 .service_box2 {
   display: flex;
   flex-wrap: wrap;
   width: 40%;
+  margin: 20px;
 }
 
 .service_box3 {
   display: flex;
   flex-wrap: wrap;
   width: 40%;
+  margin: 20px;
 }
 
 .service_box4 {
   display: flex;
   flex-wrap: wrap;
   width: 40%;
+  margin: 20px;
 }
 
 .service-title {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bolder;
+  margin: 10px 0;
 }
 
 .service-wrap {
-  font-size: 25px;
+  font-size: 18px;
   margin: 0;
 }
 
@@ -120,11 +113,14 @@ header　{
   color: #fff;
   padding: 15px 40px;
   display: inline-block;
+  margin-left: 40%;
+  margin-top: 20px;
 }
 
 .news-box {
   background-color: black;
   padding: 10%;
+  margin: 20px 0;
 }
 
 .news {
@@ -189,6 +185,7 @@ header　{
 .blog-title {
   color: black;
   font-size: 40px;
+  font-weight: bolder;
   margin: 20px 0;
   text-align: center;
 }
@@ -203,21 +200,21 @@ header　{
 .blog-title_box1 {
   display: flex;
   flex-wrap: wrap;
-  width: 30%;
+  width: 28%;
   margin: 0 10px;
 }
 
 .blog-title_box2 {
   display: flex;
   flex-wrap: wrap;
-  width: 30%;
+  width: 28%;
   margin: 0 10px;
 }
 
 .blog-title_box3 {
  display: flex;
  flex-wrap: wrap;
- width: 30%;
+ width: 28%;
  margin: 0 10px;
 } 
 
@@ -225,8 +222,13 @@ header　{
   width: 100%;
 }
 
+.blog-title_wrap1 {
+  margin: 10px 0;
+}
+
 .blog-title_wrap2 {
   font-weight: bolder;
+  margin: 30px 0;
 }
 
 .blog-btn {
@@ -250,6 +252,7 @@ header　{
   font-size: 40px;
   font-weight: bolder;
   width: 50%;
+  text-align: center;
 }
 
 .company-title_information {
@@ -259,9 +262,59 @@ header　{
   font-size: 40px;
   font-weight: bolder;
   width: 50%;
+  text-align: center;
 }
 
 .form-box {
   background-color: lightgrey;
-  padding: 10%;
+  padding: 5%;
+  margin: 30px 0;
+}
+
+.form-title {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.form-title_wrap {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.form-btn {
+  border: 2px solid red;
+  background-color: red;
+  color: #fff;
+  padding: 15px 40px;
+  display: inline-block;
+  margin: 20px 40%;
+}
+
+.footer {
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+ justify-content: space-between;
+}
+
+.copyright {
+  margin: 0 30px;
+}
+
+.footer-nav-list {
+  display: flex;
+  font-weight: bold;
+  width: 100%;
+  justify-content: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.footer-nav-item {
+  margin: 0 10px;
+  font-color: #fff;
 }
