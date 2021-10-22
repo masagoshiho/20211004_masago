@@ -2,9 +2,19 @@ body {
   margin: 10px 0;
 }
 
-header　{
+.header {
   display: flex;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0 30px;
 }
+
+.header-logo_title {
+  font-size: 24px;
+  font-weight: bolder;
+  width: 80px;
+}
+
 
 .header_title {
   display: flex;
@@ -17,4 +27,45 @@ header　{
   margin: 0 10px;
   color: black;
   font-weight: bolder;
+}
+
+.service {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/mv.png") center / cover;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.service-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+
+.service-blog_img {
+  width: 30%;
+}
+
+.service-blog_box1 {
+  display: flex;
+  margin: 50px;
+}
+
+.service-blog_box_child1 {
+  margin: 0 20px;
+}
+
+.service-blog_title {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.service-blog_wrap {
+  margin: 10px auto;
 }

@@ -3,9 +3,19 @@ body {
   margin: 10px 0;
 }
 
-header　{
+header {
   display: flex;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0 30px;
 }
+
+.header-logo_title {
+  font-size: 24px;
+  font-weight: bolder;
+  width: 80px;
+}
+
 
 .header_title {
   display: flex;
@@ -20,8 +30,14 @@ header　{
   font-weight: bolder;
 }
 
-.technology {
-
+.technology-box {
+height: 80vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background: url("../img/mv.png") center / cover;
+color: #fff;
 }
 
 .technology-title {
@@ -36,10 +52,6 @@ header　{
   text-align: center;
 }
 
-.technology_photo {
-  background: url("../img/mv.png");
-  background-size: center/ cover;
-}
 
 .item-box {
   background-color: black;
