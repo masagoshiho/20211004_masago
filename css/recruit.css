@@ -1,0 +1,81 @@
+body {
+  margin: 10px 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0 30px;
+}
+
+.header-logo_title {
+  font-size: 24px;
+  font-weight: bolder;
+  width: 80px;
+}
+
+
+.header_title {
+  display: flex;
+  list-style: none;
+  float: right;
+}
+
+
+.header-title-wrap >a {
+  margin: 0 10px;
+  color: black;
+  font-weight: bolder;
+}
+
+.recruit-head {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/mv.png") center / cover;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.recruit-title_head {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.recruit-table {
+  margin: 30px auto;
+}
+
+.recruit-title {
+  font-size: 26px;
+  font-weight: bolder;
+  border-bottom: 1px solid;
+  width: 80%;
+}
+
+.recruit-title_wrap {
+  margin-top: 20px;
+}
+
+
+.recruit-box {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+table th {
+  font-weight: bolder;
+  background-color: lightgrey;
+}

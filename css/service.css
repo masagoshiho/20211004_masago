@@ -30,7 +30,7 @@ body {
 }
 
 .service {
-  height: 80vh;
+  height: 50vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -56,18 +56,21 @@ body {
   display: flex;
   margin: 50px;
   border-top: 1px solid;
+  padding: 15px;
 }
 
 .service-blog_box2 {
   display: flex;
   margin: 50px;
   border-top: 1px solid;
+  padding: 15px;
 }
 
 .service-blog_box3 {
   display: flex;
   margin: 50px;
   border-top: 1px solid;
+  padding: 15px;
 }
 
 .service-blog_box4 {
@@ -75,6 +78,7 @@ body {
   margin: 50px;
   border-top: 1px solid;
   border-bottom: 1px solid;
+  padding: 15px;
 }
 
 .service-blog_box_child {
