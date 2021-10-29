@@ -32,18 +32,26 @@
       <div class="contact-title_head">お問い合わせ</div>
     </div>
 
+
     <div class="contact">
-      <div class="contect-title">会社名</div>
-      <input type="text">
-      <div class="contect-title">お名前<span class="contact-titile_span">*</span></div>
-      <input type="text">
-      <div class="contect-title">メールアドレス<span class="contact-titile_span">*</span></div>
-      <input type="email">
-      <div class="contect-title">お問い合わせ内容<span class="contact-titile_span">*</span></div>
-      <form action="detail.html" method="get">
-        <textarea name="textarea" cols="30" rows="3"></textarea>
+      <form class="contact-form" action="contact.html" method="get">
+        <div class="contact-form_item">
+          <label class="contact-form_item_name" for="name">会社名</label>
+          <input type="text" class="contact-form_item_input" id="name">
+        </div>
+        <div class="contact-form_item">
+          <label class="contact-form_item_name" for="name">お名前<span class="contact-from_span">*</span></label>
+          <input type="text" class="contact-form_item_input" id="name">
+        </div>
+        <div class="contact-form_item">
+          <label class="contact-form_item_name" for="name">メールアドレス<span class="contact-from_span">*</span></label>
+          <input type="text" class="contact-form_item_input" id="name">
+        </div>
+        <div class="contact-form_item">
+          <label class="contact-form_item_name" for="name">お問い合わせ内容<span class="contact-from_span">*</span></label>
+          <textarea name="textarea" class="contact-form_item_input" cols="80" rows="8"></textarea>
+        </div>
       </form>
-      <a href="" class="contact-btn">お申し込み</a>
     </div>
 
     <footer class="footer">
@@ -59,7 +67,7 @@
           <li class="footer-nav-item"><a href="contact.html">お問い合わせ</a></li>
     </footer>
 
-    </main>
+  </main>
 </body>
 
 </html>
