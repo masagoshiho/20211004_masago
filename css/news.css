@@ -49,8 +49,9 @@ header {
 
 
 .news-wrap_box {
-  width: 80%;
-  margin: 50px auto;
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
 }
 
 .news-wrap  {
@@ -92,8 +93,11 @@ header {
   background-color: red;
   color: #fff;
   padding: 15px 40px;
-  display: inline-block;
-  margin: 20px 42%;
+  display: block;
+  width: 20%;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 35%;
 }
 
 .footer {

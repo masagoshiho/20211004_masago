@@ -51,6 +51,11 @@ header {
   width: 100%;
 }
 
+.contact-form {
+  width: 1000px;
+  margin: auto;
+}
+
 .contact-form_item {
   margin-top: 20px;
 }
@@ -72,13 +77,16 @@ header {
   padding: 5px;
 }
 
-.contact-btn {
-  border: 2px solid black;
+.contact-form_item_submit {
+  width: 300px;
+  margin: 20px auto 0;
+  padding: 10px;
+  border: none;
+  display: block;
   background-color: black;
   color: #fff;
-  padding: 15px 40px;
-  display: inline-block;
-  margin: 20px 42%;
+  font-weight: bold;
+  margin-bottom: 50px;
 }
 
 .footer {

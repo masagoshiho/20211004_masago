@@ -133,9 +133,11 @@ color: #fff;
   background-color: red;
   color: #fff;
   padding: 15px 40px;
-  display: inline-block;
-  margin-left: 40%;
+  display: block;
+  width: 20%;
+  text-align: center;
   margin-top: 20px;
+  margin-left: 35%;
 }
 
 .news-box {
@@ -166,7 +168,11 @@ color: #fff;
   background-color: red;
   color: #fff;
   padding: 15px 40px;
-  display: inline-block;
+  display: block;
+  width: 20%;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 35%;
 }
 
 
@@ -240,8 +246,12 @@ color: #fff;
   background-color: red;
   color: #fff;
   padding: 15px 40px;
-  display: inline-block;
-  margin: 20px 40%;
+  display: block;
+  width: 20%;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 35%;
+  
 }
 
 .company {
@@ -291,8 +301,11 @@ color: #fff;
   background-color: red;
   color: #fff;
   padding: 15px 40px;
-  display: inline-block;
-  margin: 20px 42%;
+  display: block;
+  width: 20%;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 35%;
 }
 
 .footer {
